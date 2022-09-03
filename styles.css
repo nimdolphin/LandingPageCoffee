@@ -1,3 +1,7 @@
+* {
+  font-family: var(--font-family);
+}
+
 body {
   max-width: 1170px;
   margin: auto;
@@ -36,7 +40,6 @@ body {
 }
 
 .button {
-  font-family: var(--font-family);
   color: var(--white);
   width: 170px;
   height: 50px; 
@@ -54,7 +57,6 @@ body {
 .main h1 {
   max-width: 669px;
   height: 231px;
-  font-family: var(--font-family);
   font-weight: var(--font-weight);
   font-style: var(--font-style);
   font-size: 54px;
@@ -71,7 +73,6 @@ body {
 }
 
 .main p {
-  font-family: var(--font-family);
   font-size: var(--font-size);
   font-weight: var(--font-weight);
   font-style: var(--font-style);
@@ -84,15 +85,16 @@ body {
   padding-bottom: 30px;
 }
 
-.cup-coffee img {
-  width: 544.75px;
+.cup-coffee {
+  width: 544px;
   height: 609px;
   padding-bottom: 100px;
 }
 
 .container-2 {
   display: flex;
-  background-image: url(./img/light-background.png);
+  background-image:
+    url(./img/light-background.png);
   width: 1169px;
   height: 607px;
   border-radius: 50px;
@@ -100,7 +102,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.bags-coffee img {
+.bags-coffee {
   width: 470px;
   height: 450px;
   padding: 6px 40px 0 50px;
@@ -108,7 +110,6 @@ body {
 
 .main-2 h1 {
   color: var(--pickled-bean);
-  font-family: var(--font-family);
   font-weight: var(--font-weight);
   font-style: var(--font-style);
   font-size: 40px;
@@ -119,7 +120,6 @@ body {
 
 .main-2 p {
   max-width: 570px;
-  font-family: var(--font-family);
   font-size: var(--font-size);
   font-weight: var(--font-weight);
   font-style: var(--font-style);
@@ -128,9 +128,8 @@ body {
   padding-bottom: 30px;
 }
 
-.heiding {
+.heading {
   color: var(--pickled-bean);
-  font-family: var(--font-family);
   font-weight: var(--font-weight);
   font-style: var(--font-style);
   font-size: 40px;
@@ -142,7 +141,6 @@ body {
 
 .text {
   max-width: 965px;
-  font-family: var(--font-family);
   font-size: var(--font-size);
   font-weight: var(--font-weight);
   font-style: var(--font-style);
@@ -159,7 +157,8 @@ body {
 }
 
 .tea {
-  background-image: url(./img/tea-background.png);
+  background-image:
+    url(./img/tea-background.png);
   background-image: 100%;
   width: 100%;
   background-repeat: no-repeat;
@@ -171,13 +170,12 @@ body {
 
 .tea img {
   width: 80px;
-  height: 73.62px;
+  height: 73px;
   margin-bottom: 10px;
   margin-left: 100px;
 }
 
 .tea h2 {
-  font-family: var(--font-family);
   font-size: 28px;
   font-weight: var(--font-weight);
   font-style: var(--font-style);
@@ -187,7 +185,6 @@ body {
 }
 
 .tea p {
-  font-family: var(--font-family);
   font-size: var(--font-size);
   font-weight: var(--font-weight);
   font-style: var(--font-style);
@@ -199,7 +196,6 @@ body {
 }
 
 .button-2 {
-  font-family: var(--font-family);
   color: var(--pickled-bean);
   width: 170px;
   height: 50px; 
@@ -217,7 +213,8 @@ body {
 }
 
 .chocolate-coffee {
-  background-image: url(./img/chokolate-background.png);
+  background-image:
+    url(./img/chokolate-background.png);
   background-image: 100%;
   width: 100%;
   background-repeat: no-repeat;
@@ -228,14 +225,13 @@ body {
 }
 
 .chocolate-coffee img {
-  width: 55.27px;
+  width: 55px;
   height: 80px;
   margin-bottom: 10px;
   margin-left: 125px;
 }
 
 .chocolate-coffee h2 {
-  font-family: var(--font-family);
   font-size: 28px;
   font-weight: var(--font-weight);
   font-style: var(--font-style);
@@ -246,7 +242,6 @@ body {
 }
 
 .chocolate-coffee p {
-  font-family: var(--font-family);
   font-size: var(--font-size);
   font-weight: var(--font-weight);
   font-style: var(--font-style);
@@ -264,7 +259,8 @@ body {
 }
 
 .coffee-leyer {
-  background-image: url(./img/coffee-background.png);
+  background-image:
+    url(./img/coffee-background.png);
   background-image: 100%;
   width: 100%;
   background-repeat: no-repeat;
@@ -275,14 +271,13 @@ body {
 }
 
 .coffee-leyer img {
-  width: 74.99px;
+  width: 74px;
   height: 75px;
   margin-bottom: 10px;
   margin-left: 120px;
 }
 
 .coffee-leyer h2 {
-  font-family: var(--font-family);
   font-size: 28px;
   font-weight: var(--font-weight);
   font-style: var(--font-style);
@@ -292,7 +287,6 @@ body {
 }
 
 .coffee-leyer p {
-  font-family: var(--font-family);
   font-size: var(--font-size);
   font-weight: var(--font-weight);
   font-style: var(--font-style);
@@ -308,7 +302,8 @@ body {
 }
 
 .sale {
-  background-image: url(./img/background-superior.png);
+  background-image:
+    url(./img/background-superior.png);
   background-repeat: no-repeat;
   width: 100%;
 }
@@ -321,7 +316,6 @@ body {
 .sale h2 {
   width: 240px;
   height: 34px;
-  font-family: var(--font-family);
   color: var(--metallic-bronze);
   font-weight: var(--font-weight);
   font-style: var(--font-style);
@@ -336,7 +330,6 @@ body {
 #price {
   width: 80px;
   height: 29px;
-  font-family: var(--font-family);
   color: var(--tahiti-gold);
   font-weight: var(--font-weight);
   font-style: var(--font-style);
@@ -348,7 +341,6 @@ body {
 #not-price {
   width: 80px;
   height: 24px;
-  font-family: var(--font-family);
   font-weight: var(--font-weight);
   font-style: var(--font-style);
   font-size: 18px;
@@ -367,7 +359,6 @@ body {
 .sale a {
   width: 86px;
   height: 28px;
-  font-family: var(--font-family);
   font-size: var(--font-size);
   font-style: var(--font-style);
   line-height: var(--line-height);
@@ -405,7 +396,6 @@ body {
 #process {
   width: 447px;
   height: 54px;
-  font-family: var(--font-family);
   font-weight: var(--font-weight);
   font-style: var(--font-style);
   font-size: 40px;
@@ -415,7 +405,7 @@ body {
   padding-top: 50px;
 }
 
-#ol {
+#enum {
   width: 40px;
   height: 40px;
   background-color: var(--tahiti-gold);
@@ -432,7 +422,6 @@ body {
   font-weight: var(--font-weight);
   font-style: var(--font-style);
   line-height: 44px;
-  font-family: var(--font-family);
   color: var(--metallic-bronze);
   margin-bottom: 30px;
 }
@@ -444,7 +433,6 @@ body {
   font-style: var(--font-style);
   line-height: var(--line-height);
   font-weight: 400px;
-  font-family: var(--font-family);
   color: var(--metallic-bronze);
 }
 
@@ -479,13 +467,13 @@ body {
 
 #cappuccino {
   width: 270px;
-  height: 278.8px;
+  height: 278px;
   padding: 50px 20px 20px 120px;
 }
 
 #three-cups {
   width: 270px;
-  height: 280.88px;
+  height: 280px;
   position: absolute;
   top: 200px;
   left: 430px;
@@ -493,13 +481,14 @@ body {
 
 #coffee-milk {
   width: 270px;
-  height: 280.88px;
+  height: 280px;
   padding: 10px 20px 20px 120px;
 }
 
 #man {
   padding: 20px 450px 20px 435px;
-  background-image: url(./icon/people-1.svg);
+  background-image:
+    url(./icon/people-1.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -509,14 +498,14 @@ body {
 }
 
 #for-background {
-  background-image: url(./icon/people-2.svg);
+  background-image:
+    url(./icon/people-2.svg);
   background-repeat: no-repeat;
   background-position: bottom 290px center;
 }
 
 .container-6 p {
   max-width: 507px;
-  font-family: var(--font-family);
   font-size: var(--font-size);
   font-style: var(--font-style);
   line-height: var(--line-height);
@@ -530,7 +519,6 @@ body {
 .container-6 h2 {
   width: 134px;
   height: 32px;
-  font-family: var(--font-family);
   font-weight: var(--font-weight);
   font-style: var(--font-style);
   font-size: 20px;
@@ -542,19 +530,22 @@ body {
 }
 
 .container-6 {
-  background-image: url(./img/background-feedback.png);
+  background-image:
+    url(./img/background-feedback.png);
   background-repeat: no-repeat;
   background-position: bottom center;
 }
 
 .for-background-2 {
-  background-image: url(./icon/people-3.svg);
+  background-image:
+    url(./icon/people-3.svg);
   background-repeat: no-repeat;
   background-position: bottom 35px center;
 }
 
 .container-7 {
-  background-image: url(./img/background-for-email.png);
+  background-image:
+    url(./img/background-for-email.png);
   background-repeat: no-repeat;
 }
 
@@ -613,7 +604,6 @@ form .button {
 
 .icon p {
   width: 234px;
-  font-family: var(--font-family);
   font-size: var(--font-size);
   font-style: var(--font-style);
   line-height: var(--line-height);
@@ -641,7 +631,6 @@ form .button {
 
 .categories h2 {
   width: 102px;
-  font-family: var(--font-family);
   font-weight: var(--font-weight);
   font-style: var(--font-style);
   font-size: 20px;
@@ -664,7 +653,6 @@ form .button {
 
 .information h2 {
   width: 174px;
-  font-family: var(--font-family);
   font-weight: var(--font-weight);
   font-style: var(--font-style);
   font-size: 20px;
@@ -686,7 +674,6 @@ form .button {
 
 .contact h2 {
   width: 100px;
-  font-family: var(--font-family);
   font-weight: var(--font-weight);
   font-style: var(--font-style);
   font-size: 20px;
@@ -723,7 +710,6 @@ form .button {
 #footer {
   color: var(--metallic-bronze);
   text-align: center;
-  font-family: var(--font-family);
   font-size: var(--font-size);
   font-style: var(--font-style);
   line-height: var(--line-height);
